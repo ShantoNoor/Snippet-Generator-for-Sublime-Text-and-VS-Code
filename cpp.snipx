@@ -1,0 +1,135 @@
+<snippet 1>
+	<fileName>forv</fileName>
+	<info>Vector For Loop ++</info>
+	<code>
+for (std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); $3++)
+{
+	${0:/*Code_Here*/}
+}
+	</code>
+	<tab>for forv forvpp cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 2>
+	<fileName>cpp - cout</fileName>
+	<info>cout</info>
+	<code>
+cout << ${0:/*Code_Here*/} << endl;
+	</code>
+	<tab>cout cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 3>
+	<fileName>cpp</fileName>
+	<info>Template</info>
+	<code>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	${0:/*Code_Here*/
+	cout << "Hello World" << endl;}
+
+	return 0;
+}
+	</code>
+	<tab>cpp</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 4>
+	<fileName>cpp - cout - Test Case</fileName>
+	<info>Test Case</info>
+	<code>
+cout << "Case " << i+1 << ": " << ${0:value} << endl;
+	</code>
+	<tab>cout coutc cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+	
+<snippet 5>
+	<fileName>cpp - std-cout</fileName>
+	<info>std::cout</info>
+	<code>
+std::cout << ${0:/*Code_Here*/} << std::endl;
+	</code>
+	<tab>cout couts cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 6>
+	<fileName>cpp - for</fileName>
+	<info>For Loop ++</info>
+	<code>
+for (int ${2:i} = 0; $2 < ${1:count}; ${3:$2++})
+{
+	${0:/*Code_Here*/}
+}
+	</code>
+	<tab>for forpp cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 7>
+	<fileName>cpp - scanf</fileName>
+	<info>One Scan</info>
+	<code>
+scanf("%${1:d}", &${2:v_name});
+	</code>
+	<tab>scanf scanfo cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+	
+<snippet 8>
+	<fileName>cpp - scanf2</fileName>
+	<info>Two Scan</info>
+	<code>
+scanf("%${1:d} %${2:d}", &${3:v_name}, &${4:v_name});
+	</code>
+	<tab>scanf scanft cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 9>
+	<fileName>cpp - scanf3</fileName>
+	<info>Three Scan</info>
+	<code>
+scanf("%${1:d} %${2:d} %${3:d}", &${4:v_name}, &${5:v_name}, &${6:v_name});
+	</code>
+	<tab>scanf scanfth cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 10>
+	<fileName>cpp - printf</fileName>
+	<info>One Print</info>
+	<code>
+printf("%${1:d}", ${2:v_name});
+	</code>
+	<tab>printf printfo cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+	
+<snippet 11>
+	<fileName>cpp - printf2</fileName>
+	<info>Two Print</info>
+	<code>
+printf("%${1:d} %${2:d}", ${3:v_name}, ${4:v_name});
+	</code>
+	<tab>printf printft cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
+<snippet 12>
+	<fileName>cpp - printf3</fileName>
+	<info>Three Print</info>
+	<code>
+printf("%${1:d} %${2:d} %${3:d}", ${4:v_name}, ${5:v_name}, ${6:v_name});
+	</code>
+	<tab>printf printfth cpp_</tab>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
