@@ -133,3 +133,70 @@ printf("%${1:d} %${2:d} %${3:d}", ${4:v_name}, ${5:v_name}, ${6:v_name});
 	<tab>printf printfth cpp_</tab>
 	<scope>source.c, source.objc, source.c++, source.objc++</scope>
 </snippet>
+
+<snippet 13>
+	<fileName>py</fileName>
+	<info>Template</info>
+	<code>
+
+t = int(input())
+
+while t > 0:
+	${0:#Code_Here}
+
+	t -= 1
+
+	</code>
+	<tab>py</tab>
+	<scope>source.python</scope>
+</snippet>
+
+<snippet 14>
+	<fileName>py print</fileName>
+	<info>Print</info>
+	<code>
+print(${0})
+	</code>
+	<tab>pt py_</tab>
+	<scope>source.python</scope>
+</snippet>
+
+<snippet 15>
+	<fileName>py input</fileName>
+	<info>Input</info>
+	<code>
+input(${0})
+	</code>
+	<tab>it py_</tab>
+	<scope>source.python</scope>
+</snippet>
+
+<snippet 16>
+	<fileName>py iinput</fileName>
+	<info>Int Input</info>
+	<code>
+int(input(${0}))
+	</code>
+	<tab>iit py_</tab>
+	<scope>source.python</scope>
+</snippet>
+
+<snippet 16>
+	<fileName>py split</fileName>
+	<info>Split</info>
+	<code>
+split(${0})
+	</code>
+	<tab>st py_</tab>
+	<scope>source.python</scope>
+</snippet>
+
+<snippet 17>
+	<fileName>py sinput</fileName>
+	<info>Split Input</info>
+	<code>
+input().split(${0})
+	</code>
+	<tab>sit py_</tab>
+	<scope>source.python</scope>
+</snippet>
